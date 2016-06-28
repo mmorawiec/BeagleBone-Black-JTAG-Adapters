@@ -392,7 +392,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="oshpark-2layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -452,8 +452,8 @@ Please make sure your boards conform to these design rules.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -602,15 +602,17 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="VDD">
 <contactref element="P1" pad="5"/>
 <contactref element="P2" pad="1"/>
-<wire x1="3.55" y1="30.43" x2="5.765" y2="30.43" width="0.3048" layer="1"/>
-<wire x1="5.765" y1="30.43" x2="6.985" y2="29.21" width="0.3048" layer="1"/>
-<via x="6.985" y="29.21" extent="1-16" drill="0.381"/>
-<wire x1="6.985" y1="29.21" x2="6.985" y2="26.67" width="0.3048" layer="16"/>
-<wire x1="6.985" y1="26.67" x2="8.5725" y2="25.0825" width="0.3048" layer="16"/>
+<via x="6.35" y="29.21" extent="1-16" drill="0.381"/>
 <wire x1="8.5725" y1="25.0825" x2="8.5725" y2="23.1775" width="0.3048" layer="16"/>
 <wire x1="8.5725" y1="23.1775" x2="7.62" y2="22.225" width="0.3048" layer="16"/>
 <wire x1="7.62" y1="22.225" x2="4.125" y2="22.225" width="0.3048" layer="16"/>
 <wire x1="4.125" y1="22.225" x2="4.075" y2="22.175" width="0.3048" layer="16"/>
+<wire x1="8.5725" y1="25.0825" x2="6.35" y2="27.305" width="0.3048" layer="16"/>
+<wire x1="6.35" y1="27.305" x2="6.35" y2="29.21" width="0.3048" layer="16"/>
+<wire x1="6.35" y1="29.21" x2="6.35" y2="29.845" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="29.845" x2="5.715" y2="30.48" width="0.3048" layer="1"/>
+<wire x1="5.715" y1="30.48" x2="3.6" y2="30.48" width="0.3048" layer="1"/>
+<wire x1="3.6" y1="30.48" x2="3.55" y2="30.43" width="0.3048" layer="1"/>
 </signal>
 <signal name="TDO">
 <contactref element="P1" pad="7"/>
@@ -666,12 +668,14 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="TRST_N">
 <contactref element="P1" pad="2"/>
 <contactref element="P2" pad="3"/>
-<wire x1="3.55" y1="27.89" x2="6.935" y2="27.89" width="0.3048" layer="1"/>
-<wire x1="6.935" y1="27.89" x2="8.255" y2="26.67" width="0.3048" layer="1"/>
-<via x="8.255" y="26.67" extent="1-16" drill="0.381"/>
-<wire x1="8.255" y1="26.67" x2="10.16" y2="24.765" width="0.3048" layer="16"/>
-<wire x1="10.16" y1="24.765" x2="9.975" y2="24.765" width="0.3048" layer="16"/>
+<via x="7.62" y="29.21" extent="1-16" drill="0.381"/>
 <wire x1="9.975" y1="24.765" x2="9.925" y2="24.715" width="0.3048" layer="16"/>
+<wire x1="3.55" y1="27.89" x2="6.935" y2="27.89" width="0.3048" layer="1"/>
+<wire x1="6.935" y1="27.89" x2="7.62" y2="28.575" width="0.3048" layer="1"/>
+<wire x1="7.62" y1="28.575" x2="7.62" y2="29.21" width="0.3048" layer="1"/>
+<wire x1="9.925" y1="24.715" x2="9.925" y2="25" width="0.3048" layer="16"/>
+<wire x1="9.925" y1="25" x2="7.62" y2="27.305" width="0.3048" layer="16"/>
+<wire x1="7.62" y1="27.305" x2="7.62" y2="29.21" width="0.3048" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="P1" pad="8"/>
