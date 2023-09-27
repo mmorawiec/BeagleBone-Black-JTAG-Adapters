@@ -1,0 +1,8 @@
+### Footprint positions - created on Wed Sep 27 11:33:58 2023 ###
+### Printed by KiCad version 7.0.7-dirty
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                PosX       PosY       Rot  Side
+LOGO1     OSHW-LOGOS  OSHW-LOGO-S        148.4861  -118.9236  180.0000  bottom
+P1        CTI20_JTAG  M52-5151045        148.5011  -105.0036  -90.0000  bottom
+## End
