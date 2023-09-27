@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "BBB_JTAG_CTI20_SMT_ARM20_SMT-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/BBB_JTAG_CTI20_SMT_ARM20_SMT-eagle-import.kicad_sym")(options "")(descr ""))
+)

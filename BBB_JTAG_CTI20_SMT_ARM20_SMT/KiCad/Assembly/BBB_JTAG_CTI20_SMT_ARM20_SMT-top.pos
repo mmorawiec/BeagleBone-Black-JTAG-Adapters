@@ -1,0 +1,7 @@
+### Footprint positions - created on Wed Sep 27 11:31:39 2023 ###
+### Printed by KiCad version 7.0.7-dirty
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                   PosX       PosY       Rot  Side
+P2        ARM20_JTAG  T821M120A1S100CEU-B   148.5011  -105.0036  -90.0000  top
+## End
